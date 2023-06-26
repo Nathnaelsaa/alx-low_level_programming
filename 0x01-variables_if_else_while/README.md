@@ -1,1 +1,1 @@
-my readme file for 0x00-variables if else while
+#Learning C in betty-style. Hol'up!

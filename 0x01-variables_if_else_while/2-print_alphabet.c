@@ -1,20 +1,19 @@
-#include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Seccess/correct)
- */
+ * Main - starting point of program
+ * Return - terminates main function
+*/
+
+
+#include <stdio.h>
+
 int main(void)
-
 {
-char alphabet;
-
-for (alphabet ='a'; alphabet <= 'z'; alphabet++)
+char alpha = 'a';
+while (alpha <= 'z')
 {
-putchar(alphabet);
+	putchar(alpha);
+	alpha++;
 }
-putchar('\n');
-
+ putchar("\n");
 return (0);
-
 }
