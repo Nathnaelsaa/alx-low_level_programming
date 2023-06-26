@@ -1,1 +1,1 @@
-my readme file
+#Learning C in betty-style. Hol'up!
