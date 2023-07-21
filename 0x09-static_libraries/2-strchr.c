@@ -1,14 +1,13 @@
 #include "main.h"
 /**
- * _strchr - Entry point
- * @s: the first input value
- * @c: the second input value
- * Return: Always 0 (Success)
+ * _strchr - Program entry point
+ * @s: input value
+ * @c: input value
+ * Return: Always (0) (Success)
  */
 char *_strchr(char *s, char c)
 {
 	int i = 0;
-
 
 	for (; s[i] >= '\0'; i++)
 	{
